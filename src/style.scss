@@ -4,13 +4,16 @@
   width: 600px;
   background-color: white;
   display: flex;
-  flex-direction:column;
-  justify-content: center ;
-  align-content: center;
-  form{
-    align-items: center;
-    color: red
+  justify-content: center; ;
+  flex-wrap: wrap;
+  flex-direction: row;
+  p{
+    align-content: center;
   }
+}
+
+form{
+  margin-top: 300px;
 }
 body{
   background-color: #eee;

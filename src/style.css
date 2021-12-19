@@ -4,13 +4,16 @@
   width: 600px;
   background-color: white;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.container p {
   align-content: center;
 }
-.container form {
-  align-items: center;
-  color: red;
+
+form {
+  margin-top: 300px;
 }
 
 body {
